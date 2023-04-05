@@ -27,7 +27,7 @@ usual_numpy = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 x = np.asarray(usual_numpy)
 print(x)
 print(x.shape)
-y = x.reshape(2, 7)  # 数组改变形状
+y = x.reshape(2, 7)  # 数组改变形状 变维
 print(y)
 print(y.shape)
 c = np.matmul(z, y)

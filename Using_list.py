@@ -1,3 +1,4 @@
+import random as rd
 1 # 编写一段程序将用户输入的内容嵌入到列表中
 # Name = []
 # while True:
@@ -20,4 +21,9 @@
 # else:
 #     print(name + " on here")
 3
-
+#  del函数与remove函数的比较 知道索引的话"del"就更好用些，知道值得话remove就更好用些
+# Hello_name = ["mike", "Jenny", "danny"]
+# del Hello_name[0]
+# Hello_name.remove("danny")
+# print(Hello_name)
+4
