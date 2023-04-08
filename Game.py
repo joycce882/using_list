@@ -18,9 +18,10 @@ y_data = x[:, -1]
 # print(y_data)
 m, n = np.shape(x_data)
 theta = np.ones(n)
+print(theta)
 
 def gradientDescent(iter, x, y, w, alpha):
-    x_train = x.transpose()  # 转置函数
+    x_train = x.transpose()  # 转置函数 两行十列
     for i in range(0, iter):
         pre = np.dot(x, w)
         loss = (pre - y)
